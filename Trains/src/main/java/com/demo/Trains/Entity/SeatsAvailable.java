@@ -1,0 +1,25 @@
+package com.demo.Trains.Entity;
+
+public class SeatsAvailable {
+	
+	private int sleeper;
+	private int AC;
+	public int getSleeper() {
+		return sleeper;
+	}
+	public void setSleeper(int sleeper) {
+		this.sleeper = sleeper;
+	}
+	public int getAC() {
+		return AC;
+	}
+	public void setAC(int aC) {
+		AC = aC;
+	}
+	public SeatsAvailable(int sleeper, int aC) {
+		super();
+		this.sleeper = sleeper;
+		AC = aC;
+	}
+
+}
